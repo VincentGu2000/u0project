@@ -8,11 +8,11 @@
   <!-- TODO: Replace with your paper title and author names -->
   <meta name="title" content="USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="Underwater environments pose challenges such as complex hydrodynamics, limited visibility, and constrained communication. To overcome the lack of large-scale data for multi-task autonomy, we present USIM, a simulation-based Vision-Language-Action dataset comprising over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions across 20 tasks in 9 scenarios. Building on USIM, we propose U0, a multimodal VLA model that fuses binocular vision and sensor data with a convolution-attention perception module. U0 achieves 80% success across tasks including inspection, navigation, and tracking. In challenging mobile manipulation tasks, it reduces the distance to the target by 21.2% compared with baseline methods. Together, USIM and U0 establish a foundation for scalable underwater datasets and general-purpose robotic intelligence.">
+  <meta name="description" content="Underwater environments pose unique challenges for robotic navigation and manipulation, while studies on general-purpose intelligence for multi-task execution remain scarce. To address this gap, we present USIM, a simulation-based Vision-Language-Action dataset comprising over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions. Building on USIM, we propose U0, a VLA model featuring a convolution-attention-based perception module with target pose estimation to enhance spatial awareness. U0 achieves state-of-the-art performance: an overall online success rate of 43.1%, marking a 5.5% improvement over competitive baselines, with navigation tasks reaching 87.5%. These results validate the feasibility of general-purpose underwater robotic intelligence.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="Robots, Underwater VLA, Vision-Language-Action, AI, ROV, Nevigation, Manipulation, Dataset">
   <!-- TODO: List all authors -->
-  <meta name="author" content="Junwen Gu, Zhiheng Wu, Pengxuan Si, Shuang Qiu, Yukai Feng, Luoyang Sun, Laien Luo, Lianyi Yu, Jian Wang, and Zhengxing Wu">
+  <meta name="author" content="Junwen Gu, Zhiheng Wu, Pengxuan Si, Shuang Qiu, Zhentao Zhang, Yukai Feng, Luoyang Sun, Laien Luo, Lianyi Yu, Jian Wang, and Zhengxing Wu">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
@@ -23,7 +23,7 @@
   <!-- TODO: Same as paper title above -->
   <meta property="og:title" content="USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="Underwater environments pose challenges such as complex hydrodynamics, limited visibility, and constrained communication. To overcome the lack of large-scale data for multi-task autonomy, we present USIM, a simulation-based Vision-Language-Action dataset comprising over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions across 20 tasks in 9 scenarios. Building on USIM, we propose U0, a multimodal VLA model that fuses binocular vision and sensor data with a convolution-attention perception module. U0 achieves 80% success across tasks including inspection, navigation, and tracking. In challenging mobile manipulation tasks, it reduces the distance to the target by 21.2% compared with baseline methods. Together, USIM and U0 establish a foundation for scalable underwater datasets and general-purpose robotic intelligence.">
+  <meta property="og:description" content="Underwater environments pose unique challenges for robotic navigation and manipulation, while studies on general-purpose intelligence for multi-task execution remain scarce. To address this gap, we present USIM, a simulation-based Vision-Language-Action dataset comprising over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions. Building on USIM, we propose U0, a VLA model featuring a convolution-attention-based perception module with target pose estimation to enhance spatial awareness. U0 achieves state-of-the-art performance: an overall online success rate of 43.1%, marking a 5.5% improvement over competitive baselines, with navigation tasks reaching 87.5%. These results validate the feasibility of general-purpose underwater robotic intelligence.">
   <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://vincentgu2000.github.io/u0project/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
@@ -142,8 +142,8 @@
     "url": "https://vincentgu2000.github.io/u0project/",
     "image": "https://vincentgu2000.github.io/u0project/static/images/video_poster.png",
     "keywords": ["Robots", "Underwater VLA", "Vision-Language-Action", "AI", "ROV", "Nevigation", "Manipulation", "Dataset"],
-    "abstract": "Underwater environments present unique challenges for robotic operation, including complex hydrodynamics, limited visibility, and constrained communication. Although data-driven approaches have advanced embodied intelligence in terrestrial robots and enabled task-specific autonomous underwater robots, developing underwater intelligence capable of autonomously performing multiple tasks remains highly challenging, as large-scale, high-quality underwater datasets are still scarce. To address these limitations, we introduce USIM, a simulation-based multi-task Vision-Language-Action (VLA) dataset for underwater robots. USIM comprises over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions across 20 tasks in 9 diverse scenarios, ranging from visual navigation to mobile manipulation. Building upon this dataset, we propose U0, a VLA model for general underwater robots, which integrates binocular vision and other sensor modalities through multimodal fusion, and further incorporates a convolution-attention-based perception focus enhancement module (CAP) to improve spatial understanding and mobile manipulation. Across tasks such as inspection, obstacle avoidance, scanning, and dynamic tracking, the framework achieves a success rate of 80\%, while in challenging mobile manipulation tasks, it reduces the distance to the target by 21.2\% compared with baseline methods, demonstrating its effectiveness. USIM and U0 show that VLA models can be effectively applied to underwater robotic applications, providing a foundation for scalable dataset construction, improved task autonomy, and the practical realization of intelligent general underwater robots.",
-    "citation": "@misc{gu2025usimu0visionlanguageactiondataset, title={USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots}, author={Junwen Gu and Zhiheng Wu and Pengxuan Si and Shuang Qiu and Yukai Feng and Luoyang Sun and Laien Luo and Lianyi Yu and Jian Wang and Zhengxing Wu}, year={2025}, eprint={2510.07869}, archivePrefix={arXiv}, primaryClass={cs.RO}, url={https://arxiv.org/abs/2510.07869}, }",
+    "abstract": "Underwater environments pose unique challenges for robotic navigation and manipulation, while studies on general-purpose intelligence for multi-task execution remain scarce. To address this gap, we present USIM, a simulation-based Vision-Language-Action dataset comprising over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions. Building on USIM, we propose U0, a VLA model featuring a convolution-attention-based perception module with target pose estimation to enhance spatial awareness. U0 achieves state-of-the-art performance: an overall online success rate of 43.1\\%, marking a 5.5\\% improvement over competitive baselines, with navigation tasks reaching 87.5\\%. These results validate the feasibility of general-purpose underwater robotic intelligence.",
+    "citation": "@misc{gu2025usimu0visionlanguageactiondataset, title={USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots}, author={Junwen Gu and Zhiheng Wu and Pengxuan Si and Shuang Qiu and Zhentao Zhang and Yukai Feng and Luoyang Sun and Laien Luo and Lianyi Yu and Jian Wang and Zhengxing Wu}, year={2025}, eprint={2510.07869}, archivePrefix={arXiv}, primaryClass={cs.RO}, url={https://arxiv.org/abs/2510.07869}, }",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
@@ -254,7 +254,7 @@
                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
                   </span> -->
                   <span class="author-block">
-                    Junwen&nbsp;Gu<sup>1,3&#8224;</sup>, Zhiheng&nbsp;Wu<sup>2&#8224;</sup>, Pengxuan&nbsp;Si<sup>3</sup>, Shuang&nbsp;Qiu<sup>1,3</sup>, Yukai&nbsp;Feng<sup>1,3</sup>,<br>
+                    Junwen&nbsp;Gu<sup>1,3&#8224;</sup>, Zhiheng&nbsp;Wu<sup>2&#8224;</sup>, Pengxuan&nbsp;Si<sup>3</sup>, Shuang&nbsp;Qiu<sup>1,3</sup>, Zhentao&nbsp;Zhang<sup>1,3</sup>, Yukai&nbsp;Feng<sup>1,3</sup>,<br>
                     Luoyang&nbsp;Sun<sup>1,3</sup>, Laien&nbsp;Luo<sup>1,3</sup>, Lianyi&nbsp;Yu<sup>1,3</sup>, Jian&nbsp;Wang<sup>1,3*</sup>, and Zhengxing&nbsp;Wu<sup>1,3</sup>
                   </span>
                   </div>
@@ -276,7 +276,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="static/VLAU0_ICRA2026.pdf" target="_blank"
+                        <a href="static/USIM&U0.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -394,8 +394,8 @@
             <strong>Simulation Environment:</strong> Available on <a href="https://github.com/VincentGu2000/u0env" target="_blank">GitHub</a>
           </li>
           <li style="margin-bottom: 0.5rem;">
-            <span class="icon" style="color: #ffdd57;"><i class="fas fa-clock"></i></span>
-            <strong>Latest Results:</strong> Will be updated to <a href="https://arxiv.org/abs/2510.07869" target="_blank">arXiv</a> recently
+            <span class="icon" style="color: #48c774;"><i class="fas fa-check-circle"></i></span>
+            <strong>Latest Results:</strong> Updated on <a href="https://arxiv.org/abs/2510.07869" target="_blank">arXiv</a>
           </li>
         </ul>
       </div>
@@ -408,9 +408,9 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="static/images/video_poster.png" id="teaserVideo" autoplay controls muted loop height="100%" preload="metadata">
+      <video poster="static/images/video_poster.png" id="teaserVideo" controls muted loop height="100%" preload="none">
         <!-- TODO: Add your video file path here -->
-        <source src="static/videos/usim_teaser.mp4" type="video/mp4">
+        <source data-src="static/videos/usim_teaser.mp4" type="video/mp4">
       </video>
       <!-- TODO: Replace with your video description -->
       <!-- <h2 class="subtitle has-text-centered">
@@ -430,7 +430,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Underwater environments pose challenges such as complex hydrodynamics, limited visibility, and constrained communication. To overcome the lack of large-scale data for multi-task autonomy, we present <strong>USIM</strong>, a simulation-based Vision-Language-Action dataset comprising <strong>over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions across 20 tasks in 9 scenarios</strong>. Building on USIM, we propose <strong>U0</strong>, a multimodal VLA model that fuses binocular vision and sensor data with a convolution-attention perception module. U0 achieves 80% success across tasks including inspection, navigation, and tracking. In challenging mobile manipulation tasks, it reduces the distance to the target by 21.2% compared with baseline methods. Together, USIM and U0 establish a foundation for scalable underwater datasets and general-purpose robotic intelligence.
+            Underwater environments pose unique challenges for robotic navigation and manipulation, while studies on general-purpose intelligence for multi-task execution remain scarce. To address this gap, we present <strong>USIM</strong>, a simulation-based Vision-Language-Action dataset comprising <strong>over 905K frames from 2,275 trajectories, totaling approximately 25 hours of BlueROV2 interactions</strong>. Building on USIM, we propose <strong>U0</strong>, a VLA model featuring a convolution-attention-based perception module with target pose estimation to enhance spatial awareness. U0 achieves state-of-the-art performance: an overall online success rate of <strong>43.1%</strong>, marking a <strong>5.5%</strong> improvement over competitive baselines, with navigation tasks reaching <strong>87.5%</strong>. These results validate the feasibility of general-purpose underwater robotic intelligence.
           </p>
         </div>
       </div>
@@ -441,15 +441,23 @@
 
 
 <!-- Method Section -->
-<section class="hero is-small"> 
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="container is-centered has-text-centered">
+    <div class="container is-max-desktop has-text-centered">
       <h2 class="title is-3">Method</h2>
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <img src="static/images/framework.png" alt="Method illustration" style="max-width:80%; height:auto;" />
+          <img src="static/images/framework.png" alt="Overall Framework" style="max-width:80%; height:auto;" loading="lazy" />
           <p style="font-size:0.9rem; margin-top:0.5rem; max-width:80%; margin-left:auto; margin-right:auto; text-align:justify;">
-            <strong>Overall Framework.</strong> Diverse underwater scenarios and a BlueROV2 robot equipped with a manipulator and gripper are first constructed using the Stonefish simulator. Data collection and control are implemented via ROS, resulting in the USIM dataset of over 905K frames (approximately 25 hours) covering 20 tasks. Based on USIM, U0 is developed with a dual-system architecture, incorporating multimodal sensor fusion and convolution-attention-based perception focus enhancement, while producing both target perception and robot action outputs.
+            <strong>Overall Framework.</strong> Diverse underwater scenarios and a BlueROV2 robot equipped with a manipulator are first constructed within the Stonefish simulator. Data collection and control are managed via ROS, yielding the USIM dataset of 905K frames (approximately 25 hours) across 20 tasks. The U0 model is then designed, which integrates a DiT action module and a CAP module, generating concurrent target perception and robot action outputs.
+          </p>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <img src="static/images/module.png" alt="CAP Module Structure" style="max-width:50%; height:auto;" loading="lazy" />
+          <p style="font-size:0.9rem; margin-top:0.5rem; max-width:80%; margin-left:auto; margin-right:auto; text-align:justify;">
+            <strong>The structure of the CAP module.</strong> Through combining convolutional layers and attention pooling, feature focus is refined for enhanced perception.
           </p>
         </div>
       </div>
@@ -462,82 +470,82 @@
 <!-- Scenarios carousel -->
 <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container has-text-centered">
+    <div class="container is-max-desktop has-text-centered">
       <h2 class="title is-3">Underwater Scenarios</h2>
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="static/images/scn/01seabed.png" alt="Scenario 1">
+            <img src="static/images/scn/01seabed.png" alt="Scenario 1" loading="lazy">
             <p class="caption">Seabed</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/02seabedpipeline.png" alt="Scenario 2">
+            <img src="static/images/scn/02seabedpipeline.png" alt="Scenario 2" loading="lazy">
             <p class="caption">Seabed pipeline</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/03industrialpool.png" alt="Scenario 3">
+            <img src="static/images/scn/03industrialpool.png" alt="Scenario 3" loading="lazy">
             <p class="caption">Industrial pool</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/04solarchargingstation.png" alt="Scenario 4">
+            <img src="static/images/scn/04solarchargingstation.png" alt="Scenario 4" loading="lazy">
             <p class="caption">Solar charging station</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/05lake.png" alt="Scenario 5">
+            <img src="static/images/scn/05lake.png" alt="Scenario 5" loading="lazy">
             <p class="caption">Lake</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/06openseasurface.png" alt="Scenario 6">
+            <img src="static/images/scn/06openseasurface.png" alt="Scenario 6" loading="lazy">
             <p class="caption">Open sea surface</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/07underwaterfactory.png" alt="Scenario 7">
+            <img src="static/images/scn/07underwaterfactory.png" alt="Scenario 7" loading="lazy">
             <p class="caption">Underwater factory</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/08modernshipwreck.png" alt="Scenario 8">
+            <img src="static/images/scn/08modernshipwreck.png" alt="Scenario 8" loading="lazy">
             <p class="caption">Modern shipwreck</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/09ancientshipwreck.png" alt="Scenario 9">
+            <img src="static/images/scn/09ancientshipwreck.png" alt="Scenario 9" loading="lazy">
             <p class="caption">Ancient shipwreck</p>
           </div>
 
           <!-- copy some picture to ensure effect -->
           <div class="slide">
-            <img src="static/images/scn/01seabed.png" alt="Scenario 1">
+            <img src="static/images/scn/01seabed.png" alt="Scenario 1" loading="lazy">
             <p class="caption">Seabed</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/02seabedpipeline.png" alt="Scenario 2">
+            <img src="static/images/scn/02seabedpipeline.png" alt="Scenario 2" loading="lazy">
             <p class="caption">Seabed pipeline</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/03industrialpool.png" alt="Scenario 3">
+            <img src="static/images/scn/03industrialpool.png" alt="Scenario 3" loading="lazy">
             <p class="caption">Industrial pool</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/04solarchargingstation.png" alt="Scenario 4">
+            <img src="static/images/scn/04solarchargingstation.png" alt="Scenario 4" loading="lazy">
             <p class="caption">Solar charging station</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/05lake.png" alt="Scenario 5">
+            <img src="static/images/scn/05lake.png" alt="Scenario 5" loading="lazy">
             <p class="caption">Lake</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/06openseasurface.png" alt="Scenario 6">
+            <img src="static/images/scn/06openseasurface.png" alt="Scenario 6" loading="lazy">
             <p class="caption">Open sea surface</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/07underwaterfactory.png" alt="Scenario 7">
+            <img src="static/images/scn/07underwaterfactory.png" alt="Scenario 7" loading="lazy">
             <p class="caption">Underwater factory</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/08modernshipwreck.png" alt="Scenario 8">
+            <img src="static/images/scn/08modernshipwreck.png" alt="Scenario 8" loading="lazy">
             <p class="caption">Modern shipwreck</p>
           </div>
           <div class="slide">
-            <img src="static/images/scn/09ancientshipwreck.png" alt="Scenario 9">
+            <img src="static/images/scn/09ancientshipwreck.png" alt="Scenario 9" loading="lazy">
             <p class="caption">Ancient shipwreck</p>
           </div>
         </div>
@@ -546,6 +554,109 @@
   </div>
 </section>
 
+
+
+<!-- Results Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop has-text-centered">
+      <h2 class="title is-3">Results</h2>
+
+      <!-- Online Evaluation Table -->
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div style="overflow-x: auto; max-width: 95%; margin: 0 auto;">
+            <table style="margin: 0 auto; border-collapse: collapse; font-size: 0.82rem; width: 100%; max-width: 900px;">
+              <caption style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0; padding-bottom: 0.3rem; border-bottom: 2px solid #363636; caption-side: top;">Online Evaluation Performance Comparison</caption>
+              <thead>
+                <tr style="border-bottom: 2px solid #363636;">
+                  <th rowspan="2" style="padding: 6px 8px; vertical-align: middle; text-align: center;">Model</th>
+                  <th colspan="2" style="padding: 6px 8px; text-align: center; border-bottom: 1px solid #dbdbdb;">Navigation</th>
+                  <th colspan="2" style="padding: 6px 8px; text-align: center; border-bottom: 1px solid #dbdbdb;">Grasping</th>
+                  <th colspan="2" style="padding: 6px 8px; text-align: center; border-bottom: 1px solid #dbdbdb;">Transporting</th>
+                  <th colspan="2" style="padding: 6px 8px; text-align: center; border-bottom: 1px solid #dbdbdb;">Tracking</th>
+                  <th rowspan="2" style="padding: 6px 8px; vertical-align: middle; text-align: center; font-size: 0.78rem;">Overall SR<br><span style="font-weight: normal; font-size: 0.72rem;">(succeed/total)</span></th>
+                </tr>
+                <tr style="border-bottom: 2px solid #363636;">
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">SR&nbsp;&#x2191;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">SPL&nbsp;&#x2191;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">SR&nbsp;&#x2191;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">ASD&nbsp;&#x2193;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">SR&nbsp;&#x2191;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">SSR&nbsp;&#x2191;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">SR&nbsp;&#x2191;</th>
+                  <th style="padding: 4px 6px; text-align: center; font-size: 0.75rem;">MTD&nbsp;&#x2193;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom: 1px solid #eee;">
+                  <td style="padding: 6px 8px; text-align: left;">OpenVLA</td>
+                  <td style="padding: 6px 6px; text-align: center;">25.6%</td>
+                  <td style="padding: 6px 6px; text-align: center;">0.70&nbsp;&plusmn;&nbsp;0.21</td>
+                  <td style="padding: 6px 6px; text-align: center;">0.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">&mdash;</td>
+                  <td style="padding: 6px 6px; text-align: center;">0.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">0.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">5.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">4.02&nbsp;&plusmn;&nbsp;0.00&nbsp;m</td>
+                  <td style="padding: 6px 8px; text-align: center;">6.0%<br><span style="font-size:0.72rem; color:#888;">(42/700)</span></td>
+                </tr>
+                <tr style="border-bottom: 1px solid #eee;">
+                  <td style="padding: 6px 8px; text-align: left;">&#x03C0;<sub>0.5</sub></td>
+                  <td style="padding: 6px 6px; text-align: center;">46.9%</td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>0.87&nbsp;&plusmn;&nbsp;0.18</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>37.1%</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;">97.3&nbsp;s</td>
+                  <td style="padding: 6px 6px; text-align: center;">20.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">45.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">10.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">4.52&nbsp;&plusmn;&nbsp;0.06&nbsp;m</td>
+                  <td style="padding: 6px 8px; text-align: center;">37.6%<br><span style="font-size:0.72rem; color:#888;">(263/700)</span></td>
+                </tr>
+                <tr style="border-bottom: 1px solid #eee;">
+                  <td style="padding: 6px 8px; text-align: left;">GR00T N1.5</td>
+                  <td style="padding: 6px 6px; text-align: center;">76.3%</td>
+                  <td style="padding: 6px 6px; text-align: center;">0.69&nbsp;&plusmn;&nbsp;0.21</td>
+                  <td style="padding: 6px 6px; text-align: center;">24.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">92.3&nbsp;s</td>
+                  <td style="padding: 6px 6px; text-align: center;">15.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">30.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">30.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;">4.16&nbsp;&plusmn;&nbsp;0.14&nbsp;m</td>
+                  <td style="padding: 6px 8px; text-align: center;">35.6%<br><span style="font-size:0.72rem; color:#888;">(249/700)</span></td>
+                </tr>
+                <tr style="border-bottom: 2px solid #363636; background-color: #f0f7ff;">
+                  <td style="padding: 6px 8px; text-align: left; font-weight: 600;">U0 (Ours)</td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>87.5%</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;">0.71&nbsp;&plusmn;&nbsp;0.23</td>
+                  <td style="padding: 6px 6px; text-align: center;">30.0%</td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>87.6&nbsp;s</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>25.0%</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>45.0%</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>40.0%</strong></td>
+                  <td style="padding: 6px 6px; text-align: center;"><strong>3.61&nbsp;&plusmn;&nbsp;0.35&nbsp;m</strong></td>
+                  <td style="padding: 6px 8px; text-align: center;"><strong>43.1%</strong><br><span style="font-size:0.72rem; color:#888;">(302/700)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task Details Figure -->
+      <div class="columns is-centered" style="margin-top: 1.5rem;">
+        <div class="column has-text-centered">
+          <img src="static/images/task_details.png" alt="Task Details Results" style="max-width:72%; height:auto;" loading="lazy" />
+          <p style="font-size:0.9rem; margin-top:0.5rem; max-width:90%; margin-left:auto; margin-right:auto; text-align:justify;">
+            <strong>Model Performance Comparison.</strong> Breakdown of success rates across 20 individual tasks.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Results Section -->
 
 
 <!--BibTex citation -->
@@ -560,7 +671,7 @@
       </div>
       <pre id="bibtex-code"><code>@misc{gu2025usimu0visionlanguageactiondataset,
       title={USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots}, 
-      author={Junwen Gu and Zhiheng Wu and Pengxuan Si and Shuang Qiu and Yukai Feng and Luoyang Sun and Laien Luo and Lianyi Yu and Jian Wang and Zhengxing Wu},
+      author={Junwen Gu and Zhiheng Wu and Pengxuan Si and Shuang Qiu and Zhentao Zhang and Yukai Feng and Luoyang Sun and Laien Luo and Lianyi Yu and Jian Wang and Zhengxing Wu},
       year={2025},
       eprint={2510.07869},
       archivePrefix={arXiv},
@@ -594,6 +705,21 @@
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
+
+  <!-- Lazy load video after page is fully loaded -->
+  <script>
+    window.addEventListener('load', function() {
+      var videoEl = document.getElementById('teaserVideo');
+      if (videoEl) {
+        var sources = videoEl.querySelectorAll('source[data-src]');
+        sources.forEach(function(source) {
+          source.src = source.getAttribute('data-src');
+          source.removeAttribute('data-src');
+        });
+        videoEl.load();
+      }
+    });
+  </script>
 
   </body>
   </html>
